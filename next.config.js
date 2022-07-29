@@ -3,7 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['www.metroworldnews.com.br']
+    domains: [
+      'www.metroworldnews.com.br', 
+      'lh3.googleusercontent.com']
   }
 }
 
