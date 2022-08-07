@@ -13,7 +13,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     setIsSSR(false)
   }, [])
 
-  if(isSSR) return null;
+  if(isSSR) return null; 
   
   return (
     <GoogleOAuthProvider clientId={`${process.env.NEXT_PUBLIC_GOOGLE_API_TOKEN}`}>
