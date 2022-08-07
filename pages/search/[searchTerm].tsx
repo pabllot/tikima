@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { GoVerified } from 'react-icons/go'
 import axios from 'axios'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router' 
 
 import VideoCard from '../../components/VideoCard'
 import NoResults from '../../components/NoResults'
